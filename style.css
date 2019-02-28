@@ -117,7 +117,7 @@ nav.black .navbar-toggle {
 }
 
 .active {
-    display: inline-block;
+    display: block;
 }
 
 @media screen and (min-width: 768px) {
