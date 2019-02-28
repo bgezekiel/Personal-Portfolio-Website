@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+nav.black {
+    background: rgba(0, 0, 0, 0.8);
+    height: 100px;
+    padding: 10px 100px;
+}
+
+nav .logo {
+    
+    padding: 21px 0px;
+    float: left;
+    transition: .3s;
+    font-size: 25px;
+
+}
+
+nav.black .logo {
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #151515;
+    padding: 12px 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+nav.black ul li a {
+    color: #fff;
+}
+
+nav ul li a:focus {
+    outline: none;
+}
+
+section.sec1 {
+    width: 100%;
+    height: 100vh;
+    background: url(images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav.black .navbar-toggle {
+    color: #fff;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 33px;
+    right: 20px;
+    cursor: pointer; 
+    color: black;
+    font-size: 24px;
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+.content h1 {
+    width: 900px;
+    margin: 30px auto;
+    text-align: justify;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.content p {
+    width: 900px;
+    margin: 30px auto;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.active {
+    display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .main-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 10px;
+    }
+   .navbar-toggle {
+       display: none;
+    }
+}
+
