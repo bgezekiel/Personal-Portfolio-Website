@@ -77,6 +77,11 @@ nav.black .navbar-toggle {
     color: #fff;
 }
 
+table {
+    border: 0.1em solid black;
+    
+}
+
 .main-nav {
     list-style-type: none;
     display: none;
@@ -114,6 +119,18 @@ nav.black .navbar-toggle {
     text-align: justify;
     font-size: 20px;
     line-height: 30px;
+}
+
+.content table {
+    width: 900px;
+    margin: 30px auto;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.content table tr {
+    text-align: justify;
 }
 
 .active {

@@ -1,3 +1,7 @@
+<?php   
+    include "send_form_email.php"
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +15,6 @@
     <script src="jquery-3.3.1.min.js"></script>
     <script src="script.js"></script>
     <script src="script2.js"></script>
-   
     
     
 </head>
@@ -50,6 +53,64 @@
                 and more recently with desktop publishing software like Aldus PageMaker including 
                 versions of Lorem Ipsum.
             </p>
+        </section>
+        <section class='content'>
+            <h1 id="about">Portfolio</h1>
+            <p> Placeholder for snapshots of current and past projects!
+
+            </p>
+        </section>
+        <section class='content'>
+            <h1 id="about">Get in contant with me!</h1>
+            <form name="contactform" method="post" action="send_form_email.php">
+                <table class="table">
+                    <tr>
+                        <td valign="top">
+                            <label for="first_name">First Name *</label>
+                        </td>
+                        <td valign="top">
+                            <input  type="text" name="first_name" maxlength="50" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top"">
+                            <label for="last_name">Last Name *</label>
+                        </td>
+                        <td valign="top">
+                            <input  type="text" name="last_name" maxlength="50" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            <label for="email">Email Address *</label>
+                        </td>
+                        <td valign="top">
+                            <input  type="text" name="email" maxlength="80" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            <label for="telephone">Telephone Number</label>
+                        </td>
+                        <td valign="top">
+                            <input  type="text" name="telephone" maxlength="30" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            <label for="comments">Comments *</label>
+                        </td>
+                        <td valign="top">
+                            <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center">
+                            <input type="submit" value="Submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>
         </section>
 
     </div>
