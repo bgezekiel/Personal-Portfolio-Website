@@ -1,3 +1,4 @@
+// Scroll event to add black background to nav bar on scroll
 $(window).on('scroll', function() {
     if($(window).scrollTop()) {
         $('nav').addClass('black');

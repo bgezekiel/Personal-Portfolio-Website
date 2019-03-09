@@ -1,7 +1,3 @@
-<?php   
-    include "send_form_email.php"
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="jquery-3.3.1.min.js"></script>
     <script src="script.js"></script>
-    <script src="script2.js"></script>
+
     
     
 </head>
@@ -24,7 +20,7 @@
             <span class="navbar-toggle" id="js-navbar-toggle">
                 <i class="fa fa-bars"></i>
             </span>
-           <div class="logo">LOGO</div> 
+           <div class="logo"><img src="images/logo.png"></div> 
            <ul class="main-nav" id="js-menu">
                 <li><a href="#" class="nav-links">Home</a></li>
                 <li><a id="#" href="#about" class="nav-links">About</a></li>
@@ -32,7 +28,10 @@
                 <li><a href="#" class="nav-links">Contact</a></li>
            </ul>
         </nav>
-        <section class="sec1"></section>
+        <section class="sec1">
+            <h2>Welcome to BRANDOEZ.com</h2>
+            <h3>Web and Software Developer</h3>    
+        </section>
         <section class="content">
             <h1 id="about">About Me</h1>
             <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -60,59 +59,31 @@
 
             </p>
         </section>
-        <section class='content'>
-            <h1 id="about">Get in contant with me!</h1>
-            <form name="contactform" method="post" action="send_form_email.php">
-                <table class="table">
-                    <tr>
-                        <td valign="top">
-                            <label for="first_name">First Name *</label>
-                        </td>
-                        <td valign="top">
-                            <input  type="text" name="first_name" maxlength="50" size="30">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td valign="top"">
-                            <label for="last_name">Last Name *</label>
-                        </td>
-                        <td valign="top">
-                            <input  type="text" name="last_name" maxlength="50" size="30">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td valign="top">
-                            <label for="email">Email Address *</label>
-                        </td>
-                        <td valign="top">
-                            <input  type="text" name="email" maxlength="80" size="30">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td valign="top">
-                            <label for="telephone">Telephone Number</label>
-                        </td>
-                        <td valign="top">
-                            <input  type="text" name="telephone" maxlength="30" size="30">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td valign="top">
-                            <label for="comments">Comments *</label>
-                        </td>
-                        <td valign="top">
-                            <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align:center">
-                            <input type="submit" value="Submit">
-                        </td>
-                    </tr>
-                </table>
-            </form>
-        </section>
+        <footer>
+            <div class="block">
+                    <div class="footer-logo">
+                            <img src="images/logo.png">
+                    </div>
+            </div>
+            
+            <div class="footer-list">
+                <ul>
+                    <li><a href="#" class="footer-li">Home</a></li>
+                    <li><a href="#" class="footer-li">About Me</a></li>
+                    <li><a href="#" class="footer-li">Portfolio</a></li>
+                    <li><a href="#" class="footer-li">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/bgezekiel/"><img src="images/link.png"></a></li>
+                    <li><a href="https://github.com/bgezekiel"><img src="images/git.png"></a></li>
+                    <li><a href="https://www.instagram.com/brandon_e10/"><img src="images/insta.png"></a></li>
+                </ul>
 
+            </div>
+
+        </footer>
     </div>
 </body>
 </html>

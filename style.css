@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
     font-family: Quicksand;
 }
 
@@ -15,18 +17,21 @@ nav {
     transition: .3s;
 }
 
+
+
 nav.black {
     background: rgba(0, 0, 0, 0.8);
-    height: 100px;
+    height: 115px;
     padding: 10px 100px;
 }
 
 nav .logo {
-    
+    margin-top: 1%;
     padding: 21px 0px;
     float: left;
     transition: .3s;
-    font-size: 25px;
+    
+    
 
 }
 
@@ -48,7 +53,7 @@ nav ul li {
 
 nav ul li a {
     line-height: 80px;
-    color: #151515;
+    color: #2bc2c2;
     padding: 12px 30px;
     font-weight: bold;
     text-decoration: none;
@@ -57,7 +62,7 @@ nav ul li a {
 }
 
 nav.black ul li a {
-    color: #fff;
+    color: #2bc2c2;
 }
 
 nav ul li a:focus {
@@ -73,13 +78,65 @@ section.sec1 {
 
 }
 
-nav.black .navbar-toggle {
-    color: #fff;
+section.sec1 h2, h3 {
+    text-align: center;
+    float: center;
+    margin: auto;
 }
 
-table {
-    border: 0.1em solid black;
+
+nav.black .navbar-toggle {
+    color: #2bc2c2;
+}
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    padding: 0px 100px;
+    box-sizing: border-box;
+    background: black;
+}
+
+
+
+footer .block .footer-logo {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 5%;
+    text-align: center;
     
+    
+}
+
+footer ul {
+    list-style: none;
+    margin-left: 35%;
+    
+    padding: 0;
+    display: flex;
+    text-align: center;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    font-weight: bold;
+    color: #2bc2c2;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer .social {
+    margin-left: 9%;
 }
 
 .main-nav {
@@ -100,6 +157,7 @@ table {
     text-align: center;
     margin: 15px auto;
 }
+
 
 .content {
     margin-top: 80px;
@@ -139,6 +197,7 @@ table {
 
 @media screen and (min-width: 768px) {
 
+    
     .navbar {
         display: flex;
         justify-content: space-between;
