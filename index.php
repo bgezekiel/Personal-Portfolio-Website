@@ -1,3 +1,10 @@
+<!--
+    Main page for website
+    Author: Brandon Ezekiel
+    Date: March 11, 2019
+    This is the page that is loaded when the site is vistied
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,32 +19,11 @@
 </head>
 <body>
       <div class="wrapper">
+
+            <!--To include nav bar-->
             <?php include("nav.php"); ?>
-            <!--<header>
-                  <nav>
-                        <div class="menu-icon">
-                              <i class="fa fa-bars fa-2x"></i>
-                        </div>
-                        <div class="logo">
-                              <img src="images/logo.png">
-                        </div>
-                        <div class="menu">
-                              <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                    <li><a href="#">Contact</a></li>
-                              </ul>
-                        </div>
-                  </nav>
-                  <div class=land>
-                        <h4>Brandon Ezekiel</h4>
-                        <div class="wel">
-                            <h6>Web and Software</h6>
-                            <h1>DEVELOPER.</h1>
-                        </div>
-                    </div> 
-            </header>-->
+
+            <!--Section to introduce myself briefly-->
             <section class="content">
                   <h1>A Brief Introduction</h1>
                   <p> I'm currently a student of software development. My goal is to have a bredth of knowledge in a wide range of skills. Primarily, I see myself focusing on back-end development but also have a passionfor web design.
@@ -49,6 +35,8 @@
                   </div>
             </section>
             <hr style="width: 80%;">
+
+            <!--Section to intorduce technologies that I have worked with-->
             <section class="content">
                 <h1>What have I worked with?</h1>
                 <p>
@@ -67,29 +55,13 @@
              
                 </p>
             </section>
-            <footer>
-                  <div class="block">
-                      <div class="footer-logo">
-                          <img src="images/logo.png">
-                      </div>
-                  </div>   
-                  <div class="footer-list">
-                      <ul>
-                          <li><a href="#" class="footer-li">Home</a></li>
-                          <li><a href="#" class="footer-li">About Me</a></li>
-                          <li><a href="#" class="footer-li">Portfolio</a></li>
-                          <li><a href="#" class="footer-li">Contact</a></li>
-                      </ul>
-                  </div>
-                  <div class="social">
-                      <ul>
-                          <li><a href="https://www.linkedin.com/in/bgezekiel/"><img src="images/link.png"></a></li>
-                          <li><a href="https://github.com/bgezekiel"><img src="images/git.png"></a></li>
-                          <li><a href="https://www.instagram.com/brandon_e10/"><img src="images/insta.png"></a></li>
-                      </ul>
-                  </div>
-              </footer>   
+
+            <!--To include footer -->
+            <?php include("footer.php")?>
+           
       </div>
+
+      <!--Script from scroll and toggle menu-->
       <script type="text/javascript">
       // Menu-toggle button
       $(document).ready(function() {
