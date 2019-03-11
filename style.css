@@ -5,7 +5,9 @@ body{
 }
 
 nav {
-    background-color: transparent;
+    position: fixed;
+    background-color: rgba(87, 85, 85, 0.692);;
+    opacity: 30%;
     width: 100%;
     height: 125px;
     box-sizing: border-box;
@@ -92,15 +94,18 @@ footer ul li a {
 
 .land {
     color: #2bc2c2;
-    float:center;
+    
     text-align: center;
     line-height: 10px;
+    display: block;
     
 }
 
 .land h4 {
-    padding: 50px;
+    text-align: center;
+    padding: 150px 80px;
     font-size: 20px;
+    margin-block-start: 0;
 }
 
 .wel {
@@ -207,7 +212,7 @@ footer ul li a {
         list-style: none;
         text-align: center;
         padding-top: 20px;
-        padding-right: 100px;
+        padding-right: 60px;
     }
     
 
@@ -216,7 +221,7 @@ footer ul li a {
     }
 
     .logo {
-        padding-left: 50px;
+        padding-left: 30px;
     }
 
     .land h4 {
@@ -233,6 +238,17 @@ footer ul li a {
 
     .content p {
         font-size: 20px;
+    }
+
+    @media screen and (min-width: 1400px) {
+        .logo {
+            padding-left: 55px;
+        }
+
+        .main-nav{
+            padding-right: 80px;
+            font-size: 20px;
+        }
     }
 
 
