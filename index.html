@@ -1,89 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Main</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Responsive Sticky Navbar</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 <body>
-    <section class="sec1">
-        <div class = "wrapper">  
-            <nav>
-                <div><img class="logo" src="images/logo.png"></div>
-                <span class="navbar-toggle" id="js-navbar-toggle">
-                        <i class="fa fa-bars"></i>
-                </span>
-                    <ul class="main-nav" id="js-menu">
-                        <li><a href="#" class="nav-links">Home</a></li>
-                        <li><a id="#" href="#about" class="nav-links">About</a></li>
-                        <li><a href="#" class="nav-links">Portfolio</a></li>
-                        <li><a href="#" class="nav-links">Contact</a></li>
-                    </ul>
-                    <hr style="width: 90%;">
-                </nav>
-                <div class=land>
-                    <h4>Brandon Ezekiel</h4>
-                    <div class="wel">
-                        <h6>Web and Software</h6>
-                        <h1>DEVELOPER.</h1>
-                    </div>
-                </div> 
-        </section>
-        <section class="content">
-            <h1>A Brief Introduction</h1>
-            <p> I'm currently a student of software development. My goal is to have a bredth of knowledge in a wide range of skills. Primarily, I see myself focusing on back-end development but also love to design and create on the front-end.
-            </p>
-            <p> The creation of this webpage servers many purposes. It will allow me to further my front-end skills while providing a platform that I can showcase the projects that I am, and will work on in the future. Further, it provides an outlet for other developers and anyone who may be interested in meeting or working with me to reach out!
-            </p>
-            <div class="btn">
-                <button class="btnLearn"><a href="about.html"></a>Learn More!</button>
-            </div>
-        </section>
-        <hr style="width: 80%;">
-        <section class="content">
-            <h1>What have I worked with?</h1>
-            <p>
-                So far in my programming journey I have had a taste of a number of technologies. I have had expose to both front-end and back-end languages as well as exposure to working with several database technologies.
-            </p>
-            <h5>What do I feel comfortable with?</h5>
-            <p>
-                
-                I would say I feel most comfortable working with HTML and CSS on the front-end. I also have used the bootstrap framework which I can work my way around. On the background I feel the most comfortable using C# and PHP. Further, I feel comfortable using SQL queries to extract and update information within SQL Server and MySQL databases as needed.
+      <div class="wrapper">
+            <header>
+                  <nav>
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+                        <div class="logo">
+                              <img src="images/logo.png">
+                        </div>
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Contact</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+                  <div class=land>
+                        <h4>Brandon Ezekiel</h4>
+                        <div class="wel">
+                            <h6>Web and Software</h6>
+                            <h1>DEVELOPER.</h1>
+                        </div>
+                    </div> 
+            </header>
+            <section class="content">
+                  <h1>A Brief Introduction</h1>
+                  <p> I'm currently a student of software development. My goal is to have a bredth of knowledge in a wide range of skills. Primarily, I see myself focusing on back-end development but also have a passionfor web design.
+                  </p>
+                  <p> The creation of this webpage servers many purposes. It will allow me to further my front-end skills while providing a platform that I can showcase the projects that I am, and will work on in the future. Further, it provides an outlet for other developers and anyone who may be interested in meeting or working with me to reach out!
+                  </p>
+                  <div class="btn">
+                      <button class="btnLearn"><a href="about.html"></a>Learn More!</button>
+                  </div>
+            </section>
+            <hr style="width: 80%;">
+            <section class="content">
+                <h1>What have I worked with?</h1>
+                <p>
+                    So far in my programming journey I have had a taste of a number of technologies. I have had expose to both front-end and back-end languages as well as exposure to working with several database technologies.
+                </p>
+                <h5>What do I feel comfortable with?</h5>
+                <p>
                     
-            </p>
-            <h5>What other technologies have I used?</h5>
-            <p>
-                
-                On the front I have worked on projects using some JavaScript and JQuery to enhance the UI. As for the back I am currently taking a course in Java and Android development. I will be completing a project with these technologies so be sure to check back to see the finished product! Finally, I have also worked in Oracle databases using PL/SQL.
-         
-            </p>
-        </section>
-        <footer>
-            <div class="block">
-                <div class="footer-logo">
-                    <img src="images/logo.png">
-                </div>
-            </div>   
-            <div class="footer-list">
-                <ul>
-                    <li><a href="#" class="footer-li">Home</a></li>
-                    <li><a href="#" class="footer-li">About Me</a></li>
-                    <li><a href="#" class="footer-li">Portfolio</a></li>
-                    <li><a href="#" class="footer-li">Contact</a></li>
-                </ul>
-            </div>
-            <div class="social">
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/bgezekiel/"><img src="images/link.png"></a></li>
-                    <li><a href="https://github.com/bgezekiel"><img src="images/git.png"></a></li>
-                    <li><a href="https://www.instagram.com/brandon_e10/"><img src="images/insta.png"></a></li>
-                </ul>
-            </div>
-        </footer>   
-    </div>
+                    I would say I feel most comfortable working with HTML and CSS on the front-end. I also have used the bootstrap framework which I can work my way around. On the background I feel the most comfortable using C# and PHP. Further, I feel comfortable using SQL queries to extract and update information within SQL Server and MySQL databases as needed.
+                        
+                </p>
+                <h5>What other technologies have I used?</h5>
+                <p>
+                    
+                    On the front I have worked on projects using some JavaScript and JQuery to enhance the UI. As for the back I am currently taking a course in Java and Android development. I will be completing a project with these technologies so be sure to check back to see the finished product! Finally, I have also worked in Oracle databases using PL/SQL.
+             
+                </p>
+            </section>
+            <footer>
+                  <div class="block">
+                      <div class="footer-logo">
+                          <img src="images/logo.png">
+                      </div>
+                  </div>   
+                  <div class="footer-list">
+                      <ul>
+                          <li><a href="#" class="footer-li">Home</a></li>
+                          <li><a href="#" class="footer-li">About Me</a></li>
+                          <li><a href="#" class="footer-li">Portfolio</a></li>
+                          <li><a href="#" class="footer-li">Contact</a></li>
+                      </ul>
+                  </div>
+                  <div class="social">
+                      <ul>
+                          <li><a href="https://www.linkedin.com/in/bgezekiel/"><img src="images/link.png"></a></li>
+                          <li><a href="https://github.com/bgezekiel"><img src="images/git.png"></a></li>
+                          <li><a href="https://www.instagram.com/brandon_e10/"><img src="images/insta.png"></a></li>
+                      </ul>
+                  </div>
+              </footer>   
+      </div>
+      <script type="text/javascript">
+      // Menu-toggle button
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+      // Scrolling Effect
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+      </script>
 </body>
 </html>
