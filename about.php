@@ -1,8 +1,8 @@
 <!--
-    Main page for website
+    About me page for website
     Author: Brandon Ezekiel
     Date: March 11, 2019
-    This is the page that is loaded when the site is vistied
+    This is the page is designed to let people who I am outside of prgramming
 -->
 
 <!DOCTYPE html>
@@ -19,23 +19,61 @@
 </head>
 <body>
     <div class="wrapper">
-        <nav>
-            <div class="menu-icon">
-                <i class="fa fa-bars fa-2x"></i>
-            </div>
-            <div class="logo">
-                <a href="index.php"><img src="images/logo.png"></a>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </nav> 
+        <header>
+            <div class="containerAbout">
+                <nav>
+                    <div class="menu-icon">
+                        <i class="fa fa-bars fa-2x"></i>
+                    </div>
+                    <div class="logo">
+                        <a href="index.php"><img src="images/logo.png"></a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about.php">About</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="textabout">
+                    <h5>Learn who I am outside of programming.</h5>
+                    <h1>ABOUT ME.</h1>
+                </div>
+            </div> 
+    </header>
+    <main id="about">
+        <div class="page-content-about">
+            <div class="copy">
+                <div style="width:100%; margin:auto; float:left">
+                    <div class="aboutPillar">
+                        <div class="paddingBran"></div>
+                    </div>
+                    <div class="wrapAbout">
+                        <img class="person" src="images/person.jpg">
+                        </div>
+                    <section class="content">
+                        <h1 class="bran">Hi, I'm Brandon Ezekiel.</h1>
+                        <p class="bran">
+                            I am a student of software development. I enjoy both development and web design. I like to build clean, simple, and functional applications that provide value for end users.
+                        </p>
+                    </section>
+                    <hr style="width: 80%;">
+                    
 
+                </div>
+            </div>
+            
+        </div>
+    
+    </main>
+
+
+
+
+    <!--To include footer -->
+    <?php include("footer.php")?>
     </div>
 
 

@@ -19,7 +19,7 @@
 </head>
 <body>
     <div class="wrapper">
-    <header>
+    <header class="main">
         <nav>
             <div class="menu-icon">
                 <i class="fa fa-bars fa-2x"></i>
@@ -52,7 +52,7 @@
                 <p> The creation of this webpage servers many purposes. It will allow me to further my front-end skills while providing a platform that I can showcase the projects that I am, and will work on in the future. Further, it provides an outlet for other developers and anyone who may be interested in meeting or working with me to reach out!
                 </p>
             <div class="btn">
-                <button class="btnLearn"><a href="about.html"></a>Learn More!</button>
+            <a href="about.php"> <button class="btnLearn">Learn More!</button></a>
             </div>
         </section>
             <hr style="width: 80%;">

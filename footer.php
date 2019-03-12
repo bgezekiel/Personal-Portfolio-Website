@@ -18,8 +18,8 @@
             </div>   
             <div class="footer-list">
                 <ul>
-                    <li><a href="#" class="footer-li">Home</a></li>
-                    <li><a href="#" class="footer-li">About Me</a></li>
+                    <li><a href="index.php" class="footer-li">Home</a></li>
+                    <li><a href="about.php" class="footer-li">About Me</a></li>
                     <li><a href="#" class="footer-li">Portfolio</a></li>
                     <li><a href="#" class="footer-li">Contact</a></li>
                 </ul>
