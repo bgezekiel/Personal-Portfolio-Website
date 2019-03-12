@@ -16,17 +16,17 @@
                 <i class="fa fa-bars fa-2x"></i>
             </div>
             <div class="logo">
-                <img src="images/logo.png">
+                <a href="index.php"><img src="images/logo.png"></a>
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-        </nav>
+        </nav> 
         <div class=land>
             <h4>Brandon Ezekiel</h4>
             <div class="wel">

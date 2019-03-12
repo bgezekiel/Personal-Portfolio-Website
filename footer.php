@@ -13,7 +13,7 @@
     <footer>
         <div class="block">
             <div class="footer-logo">
-                <img src="images/logo.png">
+                <a href="index.php"><img src="images/logo.png"></a>
             </div>
             </div>   
             <div class="footer-list">
