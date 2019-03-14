@@ -60,13 +60,37 @@
                         </p>
                     </section>
                     <hr style="width: 80%;">
-                    
-
-                </div>
-            </div>
-            
+                    <h1 style="align:center">Away from the Computer</h1>
+                    <div class="timeline">
+                        <div class="containerr left">
+                            <div class="contentTime">
+                                <h2>Sports</h2>
+                                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                            </div>
+                        </div>
+                        <div class="containerr right">
+                            <div class="contentTime">
+                                <h2>Friends</h2>
+                                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                            </div>
+                        </div>
+                        <div class="containerr left">
+                            <div class="contentTime">
+                                <h2>Reading</h2>
+                                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                            </div>
+                        </div>
+                        <div class="containerr right">
+                            <div class="contentTime">
+                                <h2>Music</h2>
+                                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div> 
+            </div> 
         </div>
-    
     </main>
 
 
